@@ -22,7 +22,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-tools-support-core.git",
-                 exact: "0.5.2"),
+                 .exact("0.5.2")),
     ],
     targets: [
         .target(
